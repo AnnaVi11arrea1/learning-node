@@ -1,0 +1,20 @@
+{
+  "name": "chapter2",
+  "version": "1.0.0",
+  "description": "First node project",
+  "license": "ISC",
+  "author": "Anna Villarreal",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon node server"
+  },
+  "dependencies": {
+    "date-fns": "^4.1.0",
+    "uuid": "^13.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
