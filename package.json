@@ -1,5 +1,5 @@
 {
-  "name": "chapter2",
+  "name": "learning-nodejs",
   "version": "1.0.0",
   "description": "First node project",
   "license": "ISC",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "date-fns": "^4.1.0",
+    "express": "^5.1.0",
     "uuid": "^13.0.0"
   },
   "devDependencies": {
