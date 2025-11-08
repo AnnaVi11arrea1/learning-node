@@ -23,6 +23,7 @@ app.use('/', express.static(path.join(__dirname, '/public')));
 app.use('/', require('./routes/root'));
 app.use('/register', require('./routes/register'));
 app.use('/employees', require('./routes/api/employees'));
+app.use('/auth', require('./routes/auth'));
 
 // 404 - always keep this as the last route!
 app.all('/{*splat}', (req, res) => {
